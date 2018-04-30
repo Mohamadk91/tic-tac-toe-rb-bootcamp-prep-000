@@ -91,7 +91,7 @@ def over?(board)
 
  def winner(board)
      if won?(board) == false
-       return false
+       return 
      else
        win_array = won?(board)
      end
