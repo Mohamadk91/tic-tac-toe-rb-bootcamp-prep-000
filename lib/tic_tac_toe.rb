@@ -90,8 +90,8 @@ def over?(board)
  end
 
  def winner(board)
-     if won?(board) == false
-       return 
+     if won?(board) == nil
+       return nil
      else
        win_array = won?(board)
      end
