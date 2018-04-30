@@ -92,7 +92,7 @@ def over?(board)
  def winner(board)
      if won?(board) == nil
        return nil
-         else  
+         else
        win_array = won?(board)
      end
      if board [win_array[0]] == "X"
