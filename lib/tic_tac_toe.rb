@@ -95,7 +95,7 @@ def over?(board)
      else
        win_array = won?(board)
      end
-     if board[win_array[0]] == "X"
+     if (board)[win_array[0]] == "X"
        return "X"
      else
        return "O"
